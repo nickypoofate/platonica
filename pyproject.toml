@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "platonica"
+version = "0.1.0"
+description = "Embedded ticketing for organizations that already have websites"
+requires-python = ">=3.9"
+dependencies = [
+    "Django>=4.2,<5.0",
+    "psycopg[binary]>=3.1,<4.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["accounts*", "config*", "organizations*"]
+
