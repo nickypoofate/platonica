@@ -1,0 +1,8 @@
+- Ticketing first.
+- Existing websites.
+- Organization owns the money.
+- Organization owns the data.
+- Whatever. It's yours anyway.
+- Integrate.
+- Don't replace.
+- Prefer boring.
